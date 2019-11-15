@@ -7,19 +7,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="pop_clock.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container mt-4">
-        <div class="jumbotron">
-            <p class="lead">Current world population (estimated):</p>
-            <h1 class="display-4"><span id="worldpop" style="font-weight: bold"></span></h1>
-            <hr class="my-4">
-            <p>Births Today: <span id="birthstoday" style="font-weight: bold"></span></p>
-            <p>Deaths Today: <span id="deathstoday" style="font-weight: bold"></span></p>
+    <div class="bg-overlay">
+        <div class="container mt-4">
+            <div class="jumbotron">
+                <h4 class="text-warning mt-0 mb-4">Current world population: <span class="text-white-50">(estimated)</span></h5>
+                <h1 class="display-4"><span id="worldpop" style="font-weight: bold"></span></h1>
+                <hr class="my-4 rule">
+                <h5 class="text-primary-50">Births Today: <span id="birthstoday" class="text-success-50" style="font-weight: bold"></span></h5>
+                <h5 class="text-primary-50">Deaths Today: <span id="deathstoday" class="text-danger-50" style="font-weight: bold"></span></h5>
+            </div>
         </div>
     </div>
 
