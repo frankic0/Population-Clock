@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a79a31fee9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,10 +20,11 @@
             <div class="jumbotron w-75 mx-auto">
                 <h3>IT-231 Software Engineering</h3>
                 <h4 class="text-warning mt-0 mb-4 ml-4">Current world population: <span class="text-white-50">(estimated)</span></h5>
-                <h1 class="display-4"><span id="worldpop" style="font-weight: bold"></span></h1>
-                <hr class="my-4 rule">
-                <h5 class="text-primary-50">Births Today: <span id="birthstoday" class="text-success-50" style="font-weight: bold"></span></h5>
-                <h5 class="text-primary-50">Deaths Today: <span id="deathstoday" class="text-danger-50" style="font-weight: bold"></span></h5>
+                <h1 class="display-4"><i class="fas fa-globe-americas"></i>&nbsp<span id="worldpop" style="font-weight: bold"></span></h1>
+                <hr class="mt-4 rule mb-0">
+                <h3 class="text-stats font-weight-bold text-center mt-0">Daily Stats</h3>
+                <h4 class="text-primary-50 text-center"><i class="fas fa-baby text-success-50"></i>&nbsp<span id="birthstoday" class="text-success-50" style="font-weight: bold"></span></h4>
+                <h4 class="text-primary-50 text-center"><i class="fas fa-skull-crossbones text-danger-50"></i>&nbsp<span id="deathstoday" class="text-danger-50" style="font-weight: bold"></span></h4>
             </div>
         </div>
     </div>

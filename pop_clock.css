@@ -29,6 +29,10 @@
     color: lightsteelblue;
 }
 
+.text-stats {
+  color: lightsalmon;
+}
+
 .rule {
     overflow: visible;
     /* For IE */
